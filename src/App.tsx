@@ -1,5 +1,15 @@
+import EducationalExperience from "./components/EducationalExperience";
+import GeneralInfo from "./components/GeneralInfo";
+import PracticalExperience from "./components/PracticalExperience";
+
 function App() {
-  return <h1 className="text-3xl text-red-400 font-bold text-center underline">Hello world!</h1>;
+  return (
+    <div className="bg-base h-screen p-3">
+      <GeneralInfo />
+      <EducationalExperience />
+      <PracticalExperience />
+    </div>
+  );
 }
 
 export default App;
